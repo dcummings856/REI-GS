@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garage Sale Calculator</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <h1>Garage Sale Calculator</h1>
+  <form name="calculate">
+    <label for="department">Department</label>
+    <select name="department" id="department">
+      <option value="mens-footwear">Men's Footwear</option>
+      <option value="womens-footwear">Women's Footwear</option>
+      <option value="mens-outerwear">Men's Outerwear</option>
+      <option value="womens-outerwear">Women's Outerwear</option>
+    </select>
+    
+    <label for="level-of-wear">Level of Wear</label>
+    <select name="level-of-wear" id="level-of-wear">
+      <option value="near-new">Near New</option>
+      <option value="lightly-used">Lightly Used</option>
+      <option value="moderately-used">Moderately Used</option>
+      <option value="heavily-used">Heavily Used</option>
+    </select>
+
+    <label for="price">Price</label>
+    <input type="text" id="price">
+
+    <button id="calculate" type="button">Enter</button>
+  </form>
+  <script src='/public/script.js'></script>
+</body>
+</html>
