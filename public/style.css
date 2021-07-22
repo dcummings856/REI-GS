@@ -2,11 +2,20 @@ body {
   position: relative;
 }
 
+#title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 #container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column; 
   align-items: center;
+}
+
+option, select, input, label {
+  font-size: 20px;
 }
 
 input[type=text], select {
@@ -16,5 +25,5 @@ input[type=text], select {
 #GS-price {
   text-align: center;
   padding-top: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }

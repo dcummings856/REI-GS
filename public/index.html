@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
-  <h1>Garage Sale Calculator</h1>
+  <h1 id="title">Garage Sale Calculator</h1>
   <div id="container">
     <form name="calculate">
-      <label for="department">Department</label>
+      <label for="department" id="label">Department</label>
       <select name="department" id="department">
         <option value="mens-footwear">Men's Footwear</option>
         <option value="womens-footwear">Women's Footwear</option>
@@ -19,7 +19,7 @@
         <option value="womens-outerwear">Women's Outerwear</option>
       </select>
 
-      <label for="level-of-wear">Level of Wear</label>
+      <label for="level-of-wear" id="label">Level of Wear</label>
       <select name="level-of-wear" id="level-of-wear">
         <option value="near-new">Near New</option>
         <option value="lightly-used">Lightly Used</option>
@@ -27,7 +27,7 @@
         <option value="heavily-used">Heavily Used</option>
       </select>
 
-      <label for="price">Price</label>
+      <label for="price" id="label">Price</label>
       <input type="text" id="price">
 
       <button id="calculate" type="button">Enter</button>
