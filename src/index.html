@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Garage Sale Calculator</title>
-  <link rel="stylesheet" href="/public/style.css">
+  <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
   <h1 id="title">Garage Sale Calculator</h1>
   <div id="container">
-    <form name="calculate">
+    <form name="calculate" id="calculate-form" action="javascript:void(0)">
       <label for="department" id="label">Department</label>
       <select name="department" id="department">
         <option value="mens-footwear">Men's Footwear</option>
@@ -34,12 +34,12 @@
       <label for="price" id="label">Price</label>
       <input type="text" id="price">
 
-      <button id="calculate" type="button">Enter</button>
+      <button id="calculate" type="submit">Enter</button>
     </form>
   </div>
   <div id="GS-price">
 
   </div>
-  <script src='/public/script.js'></script>
+  <script src='/src/script.js'></script>
 </body>
 </html>
