@@ -9,29 +9,30 @@
 </head>
 <body>
   <h1>Garage Sale Calculator</h1>
-  <form name="calculate">
-    <label for="department">Department</label>
-    <select name="department" id="department">
-      <option value="mens-footwear">Men's Footwear</option>
-      <option value="womens-footwear">Women's Footwear</option>
-      <option value="mens-outerwear">Men's Outerwear</option>
-      <option value="womens-outerwear">Women's Outerwear</option>
-    </select>
-    
-    <label for="level-of-wear">Level of Wear</label>
-    <select name="level-of-wear" id="level-of-wear">
-      <option value="near-new">Near New</option>
-      <option value="lightly-used">Lightly Used</option>
-      <option value="moderately-used">Moderately Used</option>
-      <option value="heavily-used">Heavily Used</option>
-    </select>
+  <div id="container">
+    <form name="calculate">
+      <label for="department">Department</label>
+      <select name="department" id="department">
+        <option value="mens-footwear">Men's Footwear</option>
+        <option value="womens-footwear">Women's Footwear</option>
+        <option value="mens-outerwear">Men's Outerwear</option>
+        <option value="womens-outerwear">Women's Outerwear</option>
+      </select>
 
-    <label for="price">Price</label>
-    <input type="text" id="price">
+      <label for="level-of-wear">Level of Wear</label>
+      <select name="level-of-wear" id="level-of-wear">
+        <option value="near-new">Near New</option>
+        <option value="lightly-used">Lightly Used</option>
+        <option value="moderately-used">Moderately Used</option>
+        <option value="heavily-used">Heavily Used</option>
+      </select>
 
-    <button id="calculate" type="button">Enter</button>
-  </form>
+      <label for="price">Price</label>
+      <input type="text" id="price">
 
+      <button id="calculate" type="button">Enter</button>
+    </form>
+  </div>
   <div id="GS-price">
 
   </div>
