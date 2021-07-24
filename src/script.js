@@ -15,10 +15,27 @@ function calculatePrecentage(){
   } else if (levelOfWear.value == 'heavily-used') {
     return percentage = .4
   }
+
+}
+
+function calculateWomensFootwear(){
+
+  if (levelOfWear.value == 'near-new' && department.value == 'womens-footwear') {
+    return percentage = .6
+  } else if (levelOfWear.value == 'lightly-used' && department.value == 'womens-footwear') {
+    return percentage = .5
+  } else if (levelOfWear.value == 'moderately-used' && department.value == 'womens-footwear') {
+    return percentage = .4
+  } else if (levelOfWear.value == 'heavily-used' && department.value == 'womens-footwear') {
+    return percentage = .3
+  } else {
+    calculatePrecentage()
+  }
+
 }
 
 function calculatePrice(){
-  calculatePrecentage()
+  calculateWomensFootwear()
 
   if (department.value == "mens-footwear" || "womens-footwear") {
     GSPrice.textContent = Math.floor(Number(price.value) * percentage) + '.83'
