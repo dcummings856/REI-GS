@@ -38,9 +38,9 @@ function calculatePrice(){
   calculateWomensFootwear()
 
   if (department.value == 'mens-footwear' || 'womens-footwear') {
-    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + '.83'
+    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
   } else {
-    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + '.83'
+    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
   }
 
 }
