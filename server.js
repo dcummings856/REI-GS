@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.render('index.ejs')
 })
 
+app.get('/custom', (req, res) => {
+  res.render('custom.ejs')
+})
+
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Listening on localhost:${PORT}`)
 })

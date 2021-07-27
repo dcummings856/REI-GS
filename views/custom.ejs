@@ -10,10 +10,10 @@
 <body>
   <h1 id="title">Garage Sale Calculator</h1>
 
-  <a href="/custom">Custom Template</a>
+  <a href="/">Home</a>
 
   <div id="container">
-    <form name="calculate" id="calculate-form" action="javascript:void(0)">
+    <form name="custom-calculate" id="custom-calculate-form" action="javascript:void(0)">
 
       <label for="department" id="label">Department</label>
       <select name="department" id="department">
@@ -31,23 +31,17 @@
         <option value="travel">Travel</option>
       </select>
 
-      <label for="level-of-wear" id="label">Level of Wear</label>
-      <select name="level-of-wear" id="level-of-wear">
-        <option value="near-new">Near New</option>
-        <option value="lightly-used">Lightly Used</option>
-        <option value="moderately-used">Moderately Used</option>
-        <option value="heavily-used">Heavily Used</option>
-      </select>
+      <label for="custom-percentage" id="label">Percentage Off</label>
+      <input type="number" min="0" step="any" id="custom-percentage">
 
       <label for="price" id="label">Price</label>
       <input type="number" min="0" step="any" id="price">
 
       <button id="calculate" type="submit">Enter</button>
+
     </form>
   </div>
-  <div id="GS-price">
 
-  </div>
-  <script src="js/script.js"></script>
+  <script src="js/custom-script.js"></script>
 </body>
 </html>

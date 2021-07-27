@@ -7,6 +7,11 @@ body {
   padding-bottom: 20px;
 }
 
+a {
+  display: flex;
+  justify-content: center;
+}
+
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -29,3 +34,7 @@ input[type=number], select {
   font-weight: bold;
   color: rgb(207, 0, 0);
 }
+
+/* Custom Template Specific */
+
+
