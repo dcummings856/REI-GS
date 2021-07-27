@@ -27,7 +27,7 @@ input[type=number], select {
   display: flex;
 }
 
-#GS-price {
+#GS-price, #custom-GS-price {
   text-align: center;
   padding-top: 15px;
   font-size: 30px;
@@ -36,5 +36,3 @@ input[type=number], select {
 }
 
 /* Custom Template Specific */
-
-
