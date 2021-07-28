@@ -3,3 +3,11 @@ An app used for pricing items depending on wear. Each level of wear and departme
 
 # Tools used
 HTML, CSS, Javascript, NodeJS, Express
+
+---
+
+# Install all the dependencies or node packages used for development via Terminal
+
+`npm install`
+
+---
