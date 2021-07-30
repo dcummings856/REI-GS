@@ -20,6 +20,7 @@ a {
 }
 
 option, select, input, label {
+  font-family: 'Rubik', 'sans-serif';
   font-size: 20px;
 }
 
