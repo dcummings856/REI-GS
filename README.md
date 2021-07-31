@@ -1,5 +1,5 @@
 # REI-GS
-An app used for pricing items depending on wear. Each level of wear and department determines the percentage off from the original price that is put in the price field.
+An app used for pricing items depending on wear. Each level of wear and department determines the percentage off from the original price that is put in the price field. There is also a custom template that you can choose a percentage from 30 - 80 percent off.
 
 # Tools used
 HTML, CSS, Javascript, NodeJS, Express
