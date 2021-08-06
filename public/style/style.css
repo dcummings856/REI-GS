@@ -3,6 +3,7 @@ body {
 }
 
 #title {
+  font-family: "Rubik", sans-serif;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -20,7 +21,7 @@ a {
 }
 
 option, select, input, label {
-  font-family: 'Rubik', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 20px;
 }
 
