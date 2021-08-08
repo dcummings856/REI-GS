@@ -37,6 +37,12 @@ function calculateWomensFootwear(){
 function calculatePrice(){
   calculateWomensFootwear()
 
+  document.querySelector('#GS-price').style.cssText = 'color: rgb(207, 0, 0);'
+
+  setTimeout(function(){
+    document.querySelector('#GS-price').style.cssText = 'color: rgb(114, 18, 18);'
+  }, 200)
+
   if (department.value == 'mens-footwear' || 'womens-footwear') {
     GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
   } else {
