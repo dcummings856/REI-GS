@@ -26,7 +26,13 @@ function getCustomPercentage(){
 function getCustomPrice(){
   getCustomPercentage()
 
-  return customGSPrice.textContent = Math.floor(Number(customPrice.value) * percentage) + .83
+  document.querySelector('#custom-GS-price').style.cssText = 'color: rgb(207, 0, 0);'
+
+  setTimeout(function(){
+    document.querySelector('#custom-GS-price').style.cssText = 'color: rgb(114, 18, 18);'
+  }, 200)
+
+  customGSPrice.textContent = Math.floor(Number(customPrice.value) * percentage) + .83
 
 }
 
