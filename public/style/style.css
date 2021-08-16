@@ -38,4 +38,14 @@ input[type=number], select {
   color: rgb(207, 0, 0);
 }
 
-/* Custom Template Specific */
+/* details Specific */
+
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+}
