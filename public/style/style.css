@@ -38,6 +38,11 @@ input[type=number], select {
   color: rgb(207, 0, 0);
 }
 
+details {
+  text-align: center;
+  cursor: pointer;
+}
+
 /* details Specific */
 
 
