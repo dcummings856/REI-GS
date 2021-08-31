@@ -40,6 +40,8 @@ input[type=number], select {
 
 details {
   text-align: center;
+  margin: 3px;
+  padding: 8px;
   cursor: pointer;
 }
 
