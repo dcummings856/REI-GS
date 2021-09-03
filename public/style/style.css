@@ -42,6 +42,7 @@ details {
   text-align: center;
   margin: 3px;
   padding: 8px;
+  user-select: none;
   cursor: pointer;
 }
 
