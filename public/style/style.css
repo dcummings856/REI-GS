@@ -25,7 +25,7 @@ option, select, input, label {
   font-size: 20px;
 }
 
-input[type=number], select {
+input[type=number], select, #range_1 {
   display: flex;
 }
 
