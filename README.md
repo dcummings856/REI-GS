@@ -12,4 +12,4 @@ HTML, CSS, Javascript, NodeJS, Express
 
 ---
 
-## This is not an Official REI application
+## This is not an Official REI application, used in select locations
