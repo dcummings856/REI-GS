@@ -20,12 +20,16 @@ a {
   align-items: center;
 }
 
+#range_1, #range_2 {
+  display: inline flex;
+}
+
 option, select, input, label {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
 }
 
-input[type=number], select, #range_1 {
+input[type=number], select {
   display: flex;
 }
 
