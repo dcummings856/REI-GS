@@ -1,4 +1,4 @@
-const department = document.querySelector('#department')
+// const department = document.querySelector('#department')
 const levelOfWear = document.querySelector('#level-of-wear')
 const price = document.querySelector('#price')
 const GSPrice = document.querySelector('#GS-price')
