@@ -2,6 +2,7 @@
 const levelOfWear = document.querySelector('#level-of-wear')
 const price = document.querySelector('#price')
 const GSPrice = document.querySelector('#GS-price')
+const percentageRange = document.querySelector('#percentage')
 let percentage = 1
 
 function calculatePrecentage(){
@@ -18,15 +19,15 @@ function calculatePrecentage(){
 
 }
 
-function calculateWomensFootwear(){
+function calculatePercentRange(){
 
-  if (levelOfWear.value == 'near-new' && department.value == 'womens-footwear') {
+  if (levelOfWear.value == 'near-new' && percentageRange.value == '40-80') {
     return percentage = .6
-  } else if (levelOfWear.value == 'lightly-used' && department.value == 'womens-footwear') {
+  } else if (levelOfWear.value == 'lightly-used' && percentageRange.value == '40-80') {
     return percentage = .5
-  } else if (levelOfWear.value == 'moderately-used' && department.value == 'womens-footwear') {
+  } else if (levelOfWear.value == 'moderately-used' && percentageRange.value == '40-80') {
     return percentage = .4
-  } else if (levelOfWear.value == 'heavily-used' && department.value == 'womens-footwear') {
+  } else if (levelOfWear.value == 'heavily-used' && percentageRange.value == '40-80') {
     return percentage = .3
   } else {
     calculatePrecentage()
@@ -35,7 +36,7 @@ function calculateWomensFootwear(){
 }
 
 function calculatePrice(){
-  calculateWomensFootwear()
+  calculatePercentRange()
 
   document.querySelector('#GS-price').style.cssText = 'color: rgb(207, 0, 0);'
 
@@ -43,11 +44,13 @@ function calculatePrice(){
     document.querySelector('#GS-price').style.cssText = 'color: rgb(114, 18, 18);'
   }, 200)
 
-  if (department.value == 'mens-footwear' || 'womens-footwear') {
-    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
-  } else {
-    GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
-  }
+  // if (department.value == 'mens-footwear' || 'womens-footwear') {
+  //   GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
+  // } else {
+  //   GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
+  // }
+
+  return GSPrice.textContent = Math.floor(Number(price.value) * percentage) + .83
 
 }
 
