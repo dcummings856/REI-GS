@@ -50,6 +50,11 @@ details {
   cursor: pointer;
 }
 
+.italic {
+  padding: 7px;
+  font-weight: bold;
+}
+
 /* details Specific */
 
 
