@@ -47,6 +47,7 @@ details {
   margin: 3px;
   padding-top: 6px;
   user-select: none;
+  outline: none;
   cursor: pointer;
 }
 
